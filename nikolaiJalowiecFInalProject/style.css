@@ -1,0 +1,126 @@
+/*Background and Font*/
+.darkMode {
+    background: linear-gradient(rgb(68, 1, 68),black);
+    color:white;
+    min-height: 100%;
+}
+.lightMode {
+    background: linear-gradient(rgb(162, 0, 162),rgb(255, 255, 255));
+    color:rgb(0, 0, 0);
+    min-height: 100%;
+}
+
+/*Basic Formatting*/
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: center;
+}
+h1 {
+    font-size: 75px;
+}
+h2 {
+    font-size: 50px;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Navigation Formating*/
+nav {
+    text-align: center;
+}
+
+nav ul {
+   padding: 10px;
+}
+
+nav li {
+   display: inline;
+   text-align: center;
+}
+
+nav li a {  
+    padding: 20px;
+    text-decoration: underline;
+    border-radius: 8px;
+}
+
+nav li a:hover {
+   color: black;
+   background-color: white;    
+}
+
+/*Form Formatting*/
+label {
+    display: block;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+input[type=text], input[type=email], select {
+   box-sizing: border-box;
+   width: 400px;
+   padding: 10px;
+   border: 1px solid black;
+   border-radius: 4px;
+}
+
+input[type=submit] {
+    display: block;
+   width: 100px;
+   padding: 5px;
+   background-color: white;
+   color: black;
+   border: 1px solid black;
+   border-radius: 4px;
+   cursor: pointer;
+   margin: 0 auto;
+
+}
+button {  
+    padding: 20px;
+    text-decoration: underline;
+    border-radius: 8px;
+}
+
+button:hover {
+   color: black;
+   background-color: white;    
+}
+
+}
+
+/*Classes*/
+.intro {
+    font-size: 20px;
+    text-align: center;
+}
+
+.about {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.message {
+    width:400px;
+    height:150px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.button:active {
+    transform: scale(0.9);
+}
